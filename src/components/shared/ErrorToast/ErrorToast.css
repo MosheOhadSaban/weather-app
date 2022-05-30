@@ -1,0 +1,17 @@
+.ErrorToast {
+  left: 40%;
+  top: 0%;
+  position: fixed;
+}
+
+.ErrorToast .body {
+  color: aliceblue;
+}
+
+@media only screen and (max-width: 768px) {
+  .ErrorToast {
+    left: 3.5%;
+    top: 0%;
+    position: fixed;
+  }
+}

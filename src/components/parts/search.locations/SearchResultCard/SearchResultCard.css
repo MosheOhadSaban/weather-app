@@ -1,0 +1,17 @@
+.SearchResultCard {
+  cursor: pointer;
+  margin: 3px;
+  border-radius: 12px;
+  font-size: 18px;
+  font: bold;
+  overflow-x: hidden;
+}
+
+.SearchResultCard:hover {
+  background-color: rgba(221, 221, 221, 0.452);
+}
+
+.SearchResultCard .card-content {
+  display: flex;
+  padding: 3px;
+}
