@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const CURRENT_CONDITTIONS_URL =
-  "http://dataservice.accuweather.com/currentconditions/v1/";
+  "https://dataservice.accuweather.com/currentconditions/v1/";
 const API_KEY = "?apikey=76Ac5Aw4luREgxPd7YGqxwJ02NGpZNZY";
 
 export const getCurrentConditionsAsync= (

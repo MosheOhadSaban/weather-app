@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const FORECAST_URL =
-  "http://dataservice.accuweather.com/forecasts/v1/daily/5day/";
+  "https://dataservice.accuweather.com/forecasts/v1/daily/5day/";
 
 const API_KEY = "?apikey=76Ac5Aw4luREgxPd7YGqxwJ02NGpZNZY";
 
