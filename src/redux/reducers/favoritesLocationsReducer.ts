@@ -12,7 +12,6 @@ const favoritesLocationsReducer = (
       return { ...state, isLoading: true };
     case FavoritesLocationActionsType.GET_FAVORITE_LOCATION_CONDITIONS_SUCCESS:
       state.data.push(action.payload);
-      console.log(state.data);
       return { ...state, isLoading: false, data: [...state.data] };
     case FavoritesLocationActionsType.GET_FAVORITE_LOCATION_CONDITIONS_ERROR:
       return { ...state, isLoading: false, error: action.payload };

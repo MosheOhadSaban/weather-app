@@ -35,9 +35,8 @@ function Favorites() {
     <Container fluid className="shadow" style={{ height: "100vh" }}>
       <Row>
         {favoritesLocations.map((location, index) => (
-          <Col xs={12} sm={3}>
+          <Col xs={12} sm={3} key={index}>
             <FavoriteLocationCard
-              key={index}
               Key={location.Key}
               LocalizedName={location.LocalizedName}
               Country={{
